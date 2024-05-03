@@ -1,0 +1,87 @@
+body{
+    padding:0;
+    margin:10px;
+    background: #604a4a;
+}
+.boxx1{
+    display:flex;
+    justify-content: space-between;
+    border:0px solid black;
+    padding:5px;
+}
+.boxx1 img{
+    height:25px;
+    width:25px;
+    border-radius: 5rem;
+
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    background: #ece6e6;
+    border-radius: .5rem;
+}
+.menu li{
+    list-style: none;
+    cursor: pointer;
+    margin:0 10px;
+    text-align: center;
+    padding:2px 5px;
+    border-radius: .5rem;
+}
+.menu li:hover{
+    background: #000;
+    color:yellow;
+}
+.boxx2{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+.boxx2 .innerBoxx {
+    width:100%;
+}
+.boxx2 .innerBoxx h2{
+   font-size: 3rem;
+}
+.boxx2 .innerBoxx h3{
+    font-size: 1rem;
+    color:rgb(247, 246, 246);
+ }
+.innerBoxx{
+    width:50%;
+}
+.innerBoxx button{
+    padding:10px;
+    margin:10px;
+    font-size: 1.1rem;
+    outline: none;
+    border:none;
+    box-shadow: 2px 1px 2px grey;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+.innerBoxx input{
+    padding:10px;
+    margin:10px;
+    font-size: 1.1rem;
+    outline: none;
+    border:none;
+    box-shadow: 2px 1px 2px grey;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+.shoes{
+    border:0px solid black;
+    width:100%;
+    display: flex;
+    margin-left:1rem;
+}
+.shoes img{
+    width:100%;
+    margin:auto;
+    border-radius: .5rem;
+
+}
